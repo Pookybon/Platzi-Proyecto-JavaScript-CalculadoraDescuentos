@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+    font-family: "Lato";
+}
+header{
+    color: #35aeff;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background: #35aeff;
+    height: 650px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.inputContainer{
+    margin: 25px;
+    background: white;
+    height: 180px;
+    width: 420px;
+    color: #35aeff;
+    font-size: 35px;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    border-radius: 30px;
+}
+.inputSubcontainer{
+    margin: 0px;
+    font-size: 60px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 250px;
+    height: 80px;
+    border: none;
+    background: #f0f0f0;
+    font-size: 60px;
+    text-align: center;
+    border-radius: 20px;
+    color: #35aeff;
+    outline: none;
+}
+.resultContainer{
+    margin: 10px;
+    height: 180px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+}
+p{
+    margin: 0px;
+}
